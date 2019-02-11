@@ -15,11 +15,11 @@
     android:title="@string/power_menu_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-         <com.sacredos.celestialways.preference.SystemSettingSwitchPreference
+<!--         <com.sacredos.celestialways.preference.SystemSettingSwitchPreference
             android:key="lockscreen_power_menu_disabled"
             android:title="@string/lockscreen_power_menu_disabled_title"
             android:summary="@string/lockscreen_power_menu_disabled_summary"
-            android:defaultValue="true" />
+            android:defaultValue="true" /> -->
 
          <com.sacredos.celestialways.preference.SystemSettingSwitchPreference
             android:key="powermenu_power"
@@ -36,7 +36,7 @@
             android:title="@string/powermenu_restart_recovery"
             android:defaultValue="true" />
 
-         <com.sacredos.celestialways.preference.SystemSettingSwitchPreference
+<!--         <com.sacredos.celestialways.preference.SystemSettingSwitchPreference
             android:key="powermenu_screenshot"
             android:title="@string/powermenu_screenshot"
             android:defaultValue="false" />
@@ -71,7 +71,7 @@
             android:title="@string/powermenu_users"
             android:defaultValue="false" />
 
-<!--         <com.sacredos.celestialways.preference.SystemSettingSwitchPreference
+         <com.sacredos.celestialways.preference.SystemSettingSwitchPreference
             android:key="powermenu_soundpanel"
             android:title="@string/powermenu_soundpanel"
             android:defaultValue="false" /> -->

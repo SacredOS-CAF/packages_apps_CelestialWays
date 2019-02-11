@@ -16,7 +16,7 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/buttons_title">
 
-   <PreferenceCategory
+   <!--<PreferenceCategory
         android:key="power_button"
         android:title="@string/power_category">
 
@@ -26,15 +26,15 @@
              android:summary="@string/power_menu_title_summary"
 	     android:fragment="com.sacredos.celestialways.PowerMenuSettings" />
 
-    <!--<ListPreference
+    <ListPreference
         android:key="torch_power_button_gesture"
         android:title="@string/torch_power_button_gesture_title"
         android:entries="@array/torch_power_button_gesture_entries"
-        android:entryValues="@array/torch_power_button_gesture_values" />-->
+        android:entryValues="@array/torch_power_button_gesture_values" />
 
     </PreferenceCategory>
 
-    <!--<PreferenceCategory
+    <PreferenceCategory
         android:key="hardware_keys"
         android:title="@string/hardware_keys_category" >
 

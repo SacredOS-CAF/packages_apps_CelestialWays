@@ -25,14 +25,12 @@
     <string name="add">Add</string>
     <string name="advanced">Advanced</string>
     <string name="cancel">Cancel</string>
-    <string name="choose_app">Choose app</string>
     <string name="general_category">General</string>
     <string name="gestures_category">Gestures</string>
     <string name="music_category">Music</string>
     <string name="security_category">Security</string>
     <string name="hardware_category">Hardware</string>
     <string name="icons_category">Icons</string>
-    <string name="aosp_recents_category">AOSP recents</string>
     <string name="light_category">Lights</string>
     <string name="dlg_ok">OK</string>
     <string name="attention">Attention</string>
@@ -50,8 +48,10 @@
     <string name="recents_category_summary">Transcend the recents panel</string>
     <string name="status_bar_category">Statusbar</string>
     <string name="status_bar_category_summary">Transcend the look of statusbar</string>
-    <string name="notifications_panel_category">Notifications panel</string>
-    <string name="notifications_panel_category_summary">Transcending options for notifications/QuickSettings panel</string>
+    <string name="quick_settings_category_title">Quick Settings</string>
+    <string name="quick_settings_category_summary">Choose your way for Quick Settings look</string>
+    <string name="notifications_category_title">Notifications</string>
+    <string name="notifications_category_summary">Transcending options for notifications</string>
     <string name="system_category">System</string>
     <string name="system_category_summary">Transcendence ways for the system</string>
     <string name="lockscreen_category">Lockscreen</string>
@@ -86,9 +86,6 @@
 
     <!-- Navigation -->
     <string name="navigationbar_settings_title">Navigation bar</string>
-
-    <!-- Quick Settings -->
-    <string name="quick_settings_title">Quick Settings</string>
 
     <!-- Buttons -->
     <string name="buttons_title">Buttons</string>
@@ -153,8 +150,6 @@
     <string name="qs_brightness_slider_title">Brightness slider</string>
     <string name="qs_brightness_slider_summary">Show a brightness slider in the quick settings panel</string>
 
-    <string name="toast_icon_title">App\'s icon in toast</string>
-    <string name="toast_icon_summary">Display the app icon corresponding with the toast</string>
 
     <!-- Power Menu -->
     <string name="power_menu_title">Power menu</string>
@@ -177,28 +172,6 @@
 
     <string name="recents_show_membar_title">Memory bar</string>
     <string name="recents_show_membar_summary">Show a bar with the device\'s available memory</string>
-
-    <!-- Brightness icon-->
-    <string name="brightness_icon_title">Brightness icon </string>
-    <string name="brightness_icon_summary">Show a brightness icon to the right of the brightness slider to adjust auto-brightness</string>
-
-    <!-- Quick pull down-->
-    <string name="quick_pulldown_title">Quick pulldown</string>
-    <string name="quick_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
-    <string name="quick_pulldown_summary_always">Always show Quick Settings on status bar pulldown</string>
-    <string name="quick_pulldown_off">Off</string>
-    <string name="quick_pulldown_left">Left</string>
-    <string name="quick_pulldown_right">Right</string>
-    <string name="quick_pulldown_always">Always</string>
-
-    <!-- Smart pulldown-->
-    <string name="smart_pulldown_title">Smart pulldown</string>
-    <string name="smart_pulldown_summary">Open quick settings when there are %1$s notifications</string>
-    <string name="smart_pulldown_none_summary">Open quick settings when there are no notifications</string>
-    <string name="smart_pulldown_off">Off</string>
-    <string name="smart_pulldown_none">no notifications</string>
-    <string name="smart_pulldown_dismissable">no dismissable</string>
-    <string name="smart_pulldown_ongoing">no ongoing</string>
 
     <!-- Lockscreen icons -->
     <string name="lockscreen_tuner_title">Lockscreen Tuner</string>
@@ -246,15 +219,6 @@
     <string name="qs_columns_portrait_title">Tiles columns on portrait</string>
     <string name="qs_columns_landscape_title">Tiles columns on landscape</string>
     <string name="qs_tile_title_visibility_title">Show tiles title</string>
-
-    <!-- Launch music player when headset is connected -->
-    <string name="headset_connect_player_title">Launch music app on headset connection</string>
-    <string name="headset_connect_player_disabled">Disabled</string>
-    <string name="headset_connect_player_wired">Wired headset plugged in</string>
-    <string name="headset_connect_player_bt_no_carkit">BT headset (no carkit) plugged in</string>
-    <string name="headset_connect_player_bt">BT headset plugged in</string>
-    <string name="headset_connect_player_both_no_carkit">Any headset (no carkit) plugged in</string>
-    <string name="headset_connect_player_both">Any headset plugged in</string>
 
     <!-- Headset ringtone audio focus -->
     <string name="ringtone_focus_mode_title">Where to play ringtones from</string>
@@ -325,36 +289,6 @@
     <string name="no_iconpacks_summary">No icon packs installed</string>
     <string name="dialog_pick_iconpack_title">Pick icon pack</string>
     <string name="default_iconpack_title">Default icons</string>
-
-    <!-- Slim Recents panel -->
-    <string name="slim_recents_title">Slim recents</string>
-    <string name="use_slim_recents_title">Use alternative recents panel</string>
-    <string name="use_slim_recents_summary">Use Slim Recents instead of the default recents view</string>
-    <string name="slim_recents_settings_title">Slim recents settings</string>
-    <string name="slim_recents_settings_summary">View the settings for Slim Recents</string>
-    <string name="recents_max_apps_title">Max allowed apps</string>
-    <string name="recent_panel_scale_title">Size</string>
-    <string name="recent_panel_expanded_mode_title">Previews expanded mode</string>
-    <string name="recent_panel_expanded_mode_summary">Recent tasks expanded preview mode</string>
-    <string name="recent_panel_expanded_mode_auto">Auto (default)</string>
-    <string name="recent_panel_expanded_mode_always">All previews</string>
-    <string name="recent_panel_expanded_mode_never">Off (fast engine mode)</string>
-    <string name="recent_panel_bg_color_title">Panel background color</string>
-    <string name="recent_card_bg_color_title">Card background color</string>
-    <string name="recent_reset_title">Reset to stock color</string>
-    <string name="recent_reset_confirm">Are you sure you want to reset Slim Recent to stock color?</string>
-    <string name="default_auto_string">Default (app based)</string>
-    <string name="slim_icon_pack_title">Icon Pack</string>
-    <string name="slim_icon_pack_summary">Apply a custom icon pack for apps in the panel</string>
-    <string name="slim_recents_corner_radius_title">Use round corners for cards</string>
-    <!-- ATTENTION: RTL languages need to replace left with right -->
-    <string name="recent_panel_lefty_mode_title">Show on the left edge</string>
-    <string name="recent_panel_lefty_mode_summary">Show recent apps panel on the left edge</string>
-    <string name="slim_blacklist_apps_cat_title">Blacklist</string>
-    <string name="slim_blacklist_apps_title">Apps blacklist</string>
-    <string name="slim_blacklist_apps_summary">Apps to not show in the panel</string>
-    <string name="slim_blacklist_add_apps_title">Add app</string>
-    <string name="slim_blacklist_add_apps_summary">Tap here to add, tap on added app to remove it</string>
 
     <!-- DUI -->
     <string name="navbar_interface_title">Interface</string>
